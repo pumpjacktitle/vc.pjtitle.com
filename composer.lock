@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "561d623aa8bc8b1f28c8874d01e5e257",
+    "hash": "f48cb30836d009938c9b471451c9f17c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -430,12 +431,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/data-grid.git",
-                "reference": "7a24b75a90491946c846ee4eb945eec02c7e69b1"
+                "reference": "f54edfaf9a425428da5fb6d7a71ff425e5859b3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/data-grid/zipball/7a24b75a90491946c846ee4eb945eec02c7e69b1",
-                "reference": "7a24b75a90491946c846ee4eb945eec02c7e69b1",
+                "url": "https://api.github.com/repos/cartalyst/data-grid/zipball/f54edfaf9a425428da5fb6d7a71ff425e5859b3f",
+                "reference": "f54edfaf9a425428da5fb6d7a71ff425e5859b3f",
                 "shasum": ""
             },
             "require": {
@@ -506,7 +507,7 @@
                 "source": "https://github.com/cartalyst/data-grid/tree/2.0",
                 "issues": "https://github.com/cartalyst/data-grid/issues"
             },
-            "time": "2014-06-10 22:32:42"
+            "time": "2014-06-11 15:52:04"
         },
         {
             "name": "cartalyst/dependencies",
@@ -2154,56 +2155,17 @@
             "time": "2014-04-26 15:49:46"
         },
         {
-            "name": "kyaris/admin-kyaris",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@gitlab.kyaris.com:arsenal/admin-kyaris.git",
-                "reference": "aa3d51940b0a875b44d5c8cdfa17f6e967463d57"
-            },
-            "require": {
-                "cartalyst/composer-installers": "1.1.*",
-                "php": ">=5.4.0"
-            },
-            "type": "platform-theme",
-            "extra": {
-                "component": "theme"
-            },
-            "license": [
-                "BSD-3"
-            ],
-            "authors": [
-                {
-                    "name": "Kyaris LLC",
-                    "email": "help@kyaris.com"
-                },
-                {
-                    "name": "Daniel Berry",
-                    "email": "daniel@kyaris.com",
-                    "role": "Creator & Developer"
-                }
-            ],
-            "description": "Kyaris Admin theme.",
-            "keywords": [
-                "kyaris",
-                "laravel",
-                "platform",
-                "theme"
-            ],
-            "time": "2014-06-09 23:53:24"
-        },
-        {
             "name": "laravel/framework",
             "version": "4.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "5c591f909bb5c47e1e9d2230b948445c4b572892"
+                "reference": "3380b1bd5bdab64542528975e27552c19abce986"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/5c591f909bb5c47e1e9d2230b948445c4b572892",
-                "reference": "5c591f909bb5c47e1e9d2230b948445c4b572892",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3380b1bd5bdab64542528975e27552c19abce986",
+                "reference": "3380b1bd5bdab64542528975e27552c19abce986",
                 "shasum": ""
             },
             "require": {
@@ -2307,7 +2269,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-08 18:25:50"
+            "time": "2014-06-11 15:30:44"
         },
         {
             "name": "leafo/scssphp",
@@ -2396,12 +2358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "abcc4711feca326c38a78dbcb6539baad6092cb2"
+                "reference": "d8e2b179308b42b82fe2ff1f36340b44be847225"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/abcc4711feca326c38a78dbcb6539baad6092cb2",
-                "reference": "abcc4711feca326c38a78dbcb6539baad6092cb2",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d8e2b179308b42b82fe2ff1f36340b44be847225",
+                "reference": "d8e2b179308b42b82fe2ff1f36340b44be847225",
                 "shasum": ""
             },
             "require-dev": {
@@ -2455,7 +2417,7 @@
                 "s3",
                 "sftp"
             ],
-            "time": "2014-06-10 13:03:15"
+            "time": "2014-06-11 11:14:32"
         },
         {
             "name": "league/fractal",
@@ -2570,12 +2532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-client.git",
-                "reference": "2747bf0f70ac1afd98de78a7bd436666d2aa0635"
+                "reference": "09a0c051bf8f9f2afbb6edd29bdc6d17b777800a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/2747bf0f70ac1afd98de78a7bd436666d2aa0635",
-                "reference": "2747bf0f70ac1afd98de78a7bd436666d2aa0635",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/09a0c051bf8f9f2afbb6edd29bdc6d17b777800a",
+                "reference": "09a0c051bf8f9f2afbb6edd29bdc6d17b777800a",
                 "shasum": ""
             },
             "require": {
@@ -2621,7 +2583,7 @@
                 "oauth2",
                 "single sign on"
             ],
-            "time": "2014-06-08 22:27:16"
+            "time": "2014-06-11 08:16:32"
         },
         {
             "name": "lmammino/jsmin4assetic",
@@ -3045,12 +3007,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "6e796d091a31e391f59348188724a74d5802f1ec"
+                "reference": "90bc07e292f72685cc5bfbc6d8d4b406bdc810f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/6e796d091a31e391f59348188724a74d5802f1ec",
-                "reference": "6e796d091a31e391f59348188724a74d5802f1ec",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/90bc07e292f72685cc5bfbc6d8d4b406bdc810f7",
+                "reference": "90bc07e292f72685cc5bfbc6d8d4b406bdc810f7",
                 "shasum": ""
             },
             "require": {
@@ -3134,7 +3096,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2014-06-09 18:19:33"
+            "time": "2014-06-11 06:05:48"
         },
         {
             "name": "pimple/pimple",
@@ -3779,12 +3741,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-menus.git",
-                "reference": "aef24ff61bf8319e96f43e93ec65d37b2ec7c741"
+                "reference": "c6bde75af5100fcd6f646ee48ccef4b755102c2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-menus/zipball/aef24ff61bf8319e96f43e93ec65d37b2ec7c741",
-                "reference": "aef24ff61bf8319e96f43e93ec65d37b2ec7c741",
+                "url": "https://api.github.com/repos/cartalyst/platform-menus/zipball/c6bde75af5100fcd6f646ee48ccef4b755102c2c",
+                "reference": "c6bde75af5100fcd6f646ee48ccef4b755102c2c",
                 "shasum": ""
             },
             "require": {
@@ -3845,7 +3807,7 @@
                 "source": "https://github.com/cartalyst/platform-menus/tree/master",
                 "issues": "https://github.com/cartalyst/platform-menus/issues"
             },
-            "time": "2014-06-09 18:21:52"
+            "time": "2014-06-11 17:36:20"
         },
         {
             "name": "platform/operations",
@@ -5255,7 +5217,6 @@
     "stability-flags": {
         "platform/admin-default": 20,
         "platform/frontend-default": 20,
-        "kyaris/admin-kyaris": 20,
         "platform/foundation": 20,
         "platform/installer": 20,
         "platform/attributes": 20,
