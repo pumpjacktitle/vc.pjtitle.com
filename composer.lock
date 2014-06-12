@@ -2159,7 +2159,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:arsenal/admin-kyaris.git",
-                "reference": "aa3d51940b0a875b44d5c8cdfa17f6e967463d57"
+                "reference": "3e00e5f046fd23c0322820b8c7cc3577ebeb6cb8"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2190,7 +2190,7 @@
                 "platform",
                 "theme"
             ],
-            "time": "2014-06-09 23:53:24"
+            "time": "2014-06-11 19:48:41"
         },
         {
             "name": "laravel/framework",
