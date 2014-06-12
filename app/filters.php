@@ -36,6 +36,12 @@ App::after(function($request, $response)
 Route::filter('auth', function()
 {
 	if (Auth::guest()) return Redirect::guest('login')->withErrors(Lang::get('general.not_logged_in'));
+
+	// inject the current user's object into the view
+	if (Sentinel::check())
+	{
+		View::share('me', Sentinel::getUser());
+	}
 });
 
 
