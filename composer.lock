@@ -737,12 +737,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/media.git",
-                "reference": "8ff90f22b6e5936d79e9cbee267d8e6df7c06c54"
+                "reference": "509ea294301f0e72e606ff8386bf77ba662f6105"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/media/zipball/8ff90f22b6e5936d79e9cbee267d8e6df7c06c54",
-                "reference": "8ff90f22b6e5936d79e9cbee267d8e6df7c06c54",
+                "url": "https://api.github.com/repos/cartalyst/media/zipball/509ea294301f0e72e606ff8386bf77ba662f6105",
+                "reference": "509ea294301f0e72e606ff8386bf77ba662f6105",
                 "shasum": ""
             },
             "require": {
@@ -804,7 +804,7 @@
                 "source": "https://github.com/cartalyst/media/tree/master",
                 "issues": "https://github.com/cartalyst/media/issues"
             },
-            "time": "2014-05-30 18:41:01"
+            "time": "2014-06-13 17:09:13"
         },
         {
             "name": "cartalyst/nested-sets",
@@ -2256,12 +2256,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "0efc0c962f28c9b5f3ce2da899c7a08a9471b5b1"
+                "reference": "4ce5dd72b0977bedc1128563d8888431bdd75410"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/0efc0c962f28c9b5f3ce2da899c7a08a9471b5b1",
-                "reference": "0efc0c962f28c9b5f3ce2da899c7a08a9471b5b1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4ce5dd72b0977bedc1128563d8888431bdd75410",
+                "reference": "4ce5dd72b0977bedc1128563d8888431bdd75410",
                 "shasum": ""
             },
             "require": {
@@ -2365,7 +2365,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-11 21:33:06"
+            "time": "2014-06-13 19:17:08"
         },
         {
             "name": "leafo/scssphp",
@@ -2454,13 +2454,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "8f83642969dd6abf7a0cd1b166c5ff2e37b8b2ef"
+                "reference": "4d7f9963e0a69433399beec6e2419d134abb6ef4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8f83642969dd6abf7a0cd1b166c5ff2e37b8b2ef",
-                "reference": "8f83642969dd6abf7a0cd1b166c5ff2e37b8b2ef",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/4d7f9963e0a69433399beec6e2419d134abb6ef4",
+                "reference": "4d7f9963e0a69433399beec6e2419d134abb6ef4",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "aws/aws-sdk-php": "~2.5",
@@ -2513,7 +2516,7 @@
                 "s3",
                 "sftp"
             ],
-            "time": "2014-06-11 19:58:45"
+            "time": "2014-06-13 08:44:05"
         },
         {
             "name": "league/fractal",
@@ -3772,12 +3775,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-media.git",
-                "reference": "7c1501314b7fd672ba2526e886372af553f63fc2"
+                "reference": "542f5be5e48a22392b86c7cd510bf1be3906a9bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-media/zipball/7c1501314b7fd672ba2526e886372af553f63fc2",
-                "reference": "7c1501314b7fd672ba2526e886372af553f63fc2",
+                "url": "https://api.github.com/repos/cartalyst/platform-media/zipball/542f5be5e48a22392b86c7cd510bf1be3906a9bf",
+                "reference": "542f5be5e48a22392b86c7cd510bf1be3906a9bf",
                 "shasum": ""
             },
             "require": {
@@ -3840,7 +3843,7 @@
                 "source": "https://github.com/cartalyst/platform-media/tree/master",
                 "issues": "https://github.com/cartalyst/platform-media/issues"
             },
-            "time": "2014-06-09 18:28:46"
+            "time": "2014-06-13 17:17:44"
         },
         {
             "name": "platform/menus",
@@ -3848,12 +3851,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-menus.git",
-                "reference": "c6bde75af5100fcd6f646ee48ccef4b755102c2c"
+                "reference": "63350e80735e66e777f649992071259917d6ea04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-menus/zipball/c6bde75af5100fcd6f646ee48ccef4b755102c2c",
-                "reference": "c6bde75af5100fcd6f646ee48ccef4b755102c2c",
+                "url": "https://api.github.com/repos/cartalyst/platform-menus/zipball/63350e80735e66e777f649992071259917d6ea04",
+                "reference": "63350e80735e66e777f649992071259917d6ea04",
                 "shasum": ""
             },
             "require": {
@@ -3914,7 +3917,7 @@
                 "source": "https://github.com/cartalyst/platform-menus/tree/master",
                 "issues": "https://github.com/cartalyst/platform-menus/issues"
             },
-            "time": "2014-06-11 17:36:20"
+            "time": "2014-06-13 15:39:01"
         },
         {
             "name": "platform/operations",
@@ -4463,12 +4466,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "0beeac88365c580ae617d8fe8f37e4fb3a1caf22"
+                "reference": "7b048deea4ee9c49c70c40a15f4045f8dff765bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0beeac88365c580ae617d8fe8f37e4fb3a1caf22",
-                "reference": "0beeac88365c580ae617d8fe8f37e4fb3a1caf22",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/7b048deea4ee9c49c70c40a15f4045f8dff765bc",
+                "reference": "7b048deea4ee9c49c70c40a15f4045f8dff765bc",
                 "shasum": ""
             },
             "require": {
@@ -4509,7 +4512,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-06-12 08:08:15"
+            "time": "2014-06-13 11:45:24"
         },
         {
             "name": "symfony/browser-kit",
