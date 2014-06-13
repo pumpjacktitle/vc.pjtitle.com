@@ -133,6 +133,8 @@ return array(
 		'Platform\Installer\Laravel\InstallerServiceProvider',
 		'Platform\Foundation\Laravel\PlatformServiceProvider',
 
+		'KyarisArsenal\Platform\PlatformServiceProvider',
+
 	),
 
 	/*
