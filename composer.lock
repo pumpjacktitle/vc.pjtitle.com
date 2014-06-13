@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
-        "This file is @generated automatically"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f48cb30836d009938c9b471451c9f17c",
+    "hash": "df8eda87f8c1f1dbedf60ced1b066a68",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2155,17 +2154,114 @@
             "time": "2014-04-26 15:49:46"
         },
         {
+            "name": "kyaris-arsenal/admin-kyaris",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:kyaris-arsenal/admin-kyaris.git",
+                "reference": "626164e45447709f430999c0e4ef163a387aa42b"
+            },
+            "require": {
+                "cartalyst/composer-installers": "1.1.*",
+                "php": ">=5.4.0"
+            },
+            "type": "platform-theme",
+            "extra": {
+                "component": "theme"
+            },
+            "license": [
+                "BSD-3"
+            ],
+            "authors": [
+                {
+                    "name": "Kyaris LLC",
+                    "email": "help@kyaris.com"
+                },
+                {
+                    "name": "Daniel Berry",
+                    "email": "daniel@kyaris.com",
+                    "role": "Creator & Developer"
+                }
+            ],
+            "description": "Kyaris Admin theme.",
+            "keywords": [
+                "kyaris",
+                "laravel",
+                "platform",
+                "theme"
+            ],
+            "time": "2014-06-13 21:23:31"
+        },
+        {
+            "name": "kyaris-arsenal/platform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:kyaris-arsenal/platform.git",
+                "reference": "8ad35e66353ace74b400caa11d7c248d9dc3afb7"
+            },
+            "require": {
+                "illuminate/support": "4.2.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "KyarisArsenal\\Platform": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Daniel Berry",
+                    "email": "danielberrytn@gmail.com"
+                }
+            ],
+            "time": "2014-06-11 22:04:30"
+        },
+        {
+            "name": "kyaris-arsenal/users",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:kyaris-arsenal/users-extension.git",
+                "reference": "9c2b930ee1979e1e354b8c0936a7dd7d998985b4"
+            },
+            "require": {
+                "cartalyst/composer-installers": "1.1.*",
+                "illuminate/support": "4.2.x",
+                "php": ">=5.4.0"
+            },
+            "type": "platform-extension",
+            "autoload": {
+                "classmap": [
+                    "database/migrations",
+                    "database/seeds"
+                ],
+                "psr-4": {
+                    "KyarisArsenal\\Users\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Daniel Berry",
+                    "email": "danielberrytn@gmail.com"
+                }
+            ],
+            "description": "Extends the Cartalyst Platform User extension.",
+            "time": "2014-06-12 04:27:31"
+        },
+        {
             "name": "laravel/framework",
             "version": "4.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "dcb0fa4708ab293fdb557545b7b774c3e408f4db"
+                "reference": "e36966102608e2695964ab4021e3ca7e0517f420"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/dcb0fa4708ab293fdb557545b7b774c3e408f4db",
-                "reference": "dcb0fa4708ab293fdb557545b7b774c3e408f4db",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e36966102608e2695964ab4021e3ca7e0517f420",
+                "reference": "e36966102608e2695964ab4021e3ca7e0517f420",
                 "shasum": ""
             },
             "require": {
@@ -2269,7 +2365,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-13 19:28:23"
+            "time": "2014-06-13 20:42:27"
         },
         {
             "name": "leafo/scssphp",
@@ -5231,6 +5327,7 @@
     "stability-flags": {
         "platform/admin-default": 20,
         "platform/frontend-default": 20,
+        "kyaris-arsenal/admin-kyaris": 20,
         "platform/foundation": 20,
         "platform/installer": 20,
         "platform/attributes": 20,
@@ -5240,7 +5337,9 @@
         "platform/operations": 20,
         "platform/pages": 20,
         "platform/settings": 20,
-        "platform/users": 20
+        "platform/users": 20,
+        "kyaris-arsenal/platform": 20,
+        "kyaris-arsenal/users": 20
     },
     "platform": [
 
