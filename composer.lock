@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "561d623aa8bc8b1f28c8874d01e5e257",
+    "hash": "c65a7da664b11fab81b14ae9b2347c26",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2154,6 +2154,64 @@
             "time": "2014-04-26 15:49:46"
         },
         {
+            "name": "kyaris-arsenal/platform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:kyaris-arsenal/platform.git",
+                "reference": "8ad35e66353ace74b400caa11d7c248d9dc3afb7"
+            },
+            "require": {
+                "illuminate/support": "4.2.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "KyarisArsenal\\Platform": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Daniel Berry",
+                    "email": "danielberrytn@gmail.com"
+                }
+            ],
+            "time": "2014-06-11 22:04:30"
+        },
+        {
+            "name": "kyaris-arsenal/users",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:kyaris-arsenal/users-extension.git",
+                "reference": "9c2b930ee1979e1e354b8c0936a7dd7d998985b4"
+            },
+            "require": {
+                "cartalyst/composer-installers": "1.1.*",
+                "illuminate/support": "4.2.x",
+                "php": ">=5.4.0"
+            },
+            "type": "platform-extension",
+            "autoload": {
+                "classmap": [
+                    "database/migrations",
+                    "database/seeds"
+                ],
+                "psr-4": {
+                    "KyarisArsenal\\Users\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Daniel Berry",
+                    "email": "danielberrytn@gmail.com"
+                }
+            ],
+            "description": "Extends the Cartalyst Platform User extension.",
+            "time": "2014-06-12 04:27:31"
+        },
+        {
             "name": "kyaris/admin-kyaris",
             "version": "dev-master",
             "source": {
@@ -2198,12 +2256,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3380b1bd5bdab64542528975e27552c19abce986"
+                "reference": "0efc0c962f28c9b5f3ce2da899c7a08a9471b5b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3380b1bd5bdab64542528975e27552c19abce986",
-                "reference": "3380b1bd5bdab64542528975e27552c19abce986",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/0efc0c962f28c9b5f3ce2da899c7a08a9471b5b1",
+                "reference": "0efc0c962f28c9b5f3ce2da899c7a08a9471b5b1",
                 "shasum": ""
             },
             "require": {
@@ -2307,7 +2365,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-11 15:30:44"
+            "time": "2014-06-11 21:33:06"
         },
         {
             "name": "leafo/scssphp",
@@ -2396,12 +2454,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "d8e2b179308b42b82fe2ff1f36340b44be847225"
+                "reference": "8f83642969dd6abf7a0cd1b166c5ff2e37b8b2ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d8e2b179308b42b82fe2ff1f36340b44be847225",
-                "reference": "d8e2b179308b42b82fe2ff1f36340b44be847225",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8f83642969dd6abf7a0cd1b166c5ff2e37b8b2ef",
+                "reference": "8f83642969dd6abf7a0cd1b166c5ff2e37b8b2ef",
                 "shasum": ""
             },
             "require-dev": {
@@ -2455,7 +2513,7 @@
                 "s3",
                 "sftp"
             ],
-            "time": "2014-06-11 11:14:32"
+            "time": "2014-06-11 19:58:45"
         },
         {
             "name": "league/fractal",
@@ -4405,12 +4463,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "41a2d6227dbb47c1ec28d1a9508c61646bbb30ee"
+                "reference": "0beeac88365c580ae617d8fe8f37e4fb3a1caf22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/41a2d6227dbb47c1ec28d1a9508c61646bbb30ee",
-                "reference": "41a2d6227dbb47c1ec28d1a9508c61646bbb30ee",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0beeac88365c580ae617d8fe8f37e4fb3a1caf22",
+                "reference": "0beeac88365c580ae617d8fe8f37e4fb3a1caf22",
                 "shasum": ""
             },
             "require": {
@@ -4451,7 +4509,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-06-01 03:21:42"
+            "time": "2014-06-12 08:08:15"
         },
         {
             "name": "symfony/browser-kit",
@@ -4627,12 +4685,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Debug.git",
-                "reference": "4ebbb9592cff9be49862c75348afd231b3ca6965"
+                "reference": "80fa7316f3c8ad8d8bfb707bd47be0358f5690b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/4ebbb9592cff9be49862c75348afd231b3ca6965",
-                "reference": "4ebbb9592cff9be49862c75348afd231b3ca6965",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/80fa7316f3c8ad8d8bfb707bd47be0358f5690b5",
+                "reference": "80fa7316f3c8ad8d8bfb707bd47be0358f5690b5",
                 "shasum": ""
             },
             "require": {
@@ -4675,7 +4733,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
-            "time": "2014-06-02 07:03:03"
+            "time": "2014-06-11 10:05:25"
         },
         {
             "name": "symfony/dom-crawler",
@@ -4684,12 +4742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "6cda499120860286fe3d3d2fd631dacb7ae17f92"
+                "reference": "106db42e7c790fc0f27eeb4ce52832438d43d059"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/6cda499120860286fe3d3d2fd631dacb7ae17f92",
-                "reference": "6cda499120860286fe3d3d2fd631dacb7ae17f92",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/106db42e7c790fc0f27eeb4ce52832438d43d059",
+                "reference": "106db42e7c790fc0f27eeb4ce52832438d43d059",
                 "shasum": ""
             },
             "require": {
@@ -4730,7 +4788,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-31 02:02:56"
+            "time": "2014-06-12 10:01:04"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -5024,12 +5082,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "5d7d78e23894544740219e006320678cfa4cd45b"
+                "reference": "315cc1478d35209f5a749dcff1b16968fe175045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/5d7d78e23894544740219e006320678cfa4cd45b",
-                "reference": "5d7d78e23894544740219e006320678cfa4cd45b",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/315cc1478d35209f5a749dcff1b16968fe175045",
+                "reference": "315cc1478d35209f5a749dcff1b16968fe175045",
                 "shasum": ""
             },
             "require": {
@@ -5064,7 +5122,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-23 09:02:52"
+            "time": "2014-06-12 10:01:04"
         },
         {
             "name": "symfony/routing",
@@ -5276,7 +5334,9 @@
         "platform/operations": 20,
         "platform/pages": 20,
         "platform/settings": 20,
-        "platform/users": 20
+        "platform/users": 20,
+        "kyaris-arsenal/platform": 20,
+        "kyaris-arsenal/users": 20
     },
     "platform": [
 

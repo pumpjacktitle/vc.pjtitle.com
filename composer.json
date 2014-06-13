@@ -57,7 +57,10 @@
 		"platform/operations": "dev-master",
 		"platform/pages": "dev-master",
 		"platform/settings": "dev-master",
-		"platform/users": "dev-master"
+		"platform/users": "dev-master",
+
+		"kyaris-arsenal/platform": "dev-master",
+		"kyaris-arsenal/users": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
