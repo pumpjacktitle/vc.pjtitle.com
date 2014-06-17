@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "df8eda87f8c1f1dbedf60ced1b066a68",
+    "hash": "6b67c5fa03dee6223a05fbad483cfac5",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2160,7 +2160,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/admin-kyaris.git",
-                "reference": "33143733f81ba22cc8fed413883143d98580127f"
+                "reference": "43192eb2a043ecc93d5e78b27e7c82495017d703"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2191,7 +2191,46 @@
                 "platform",
                 "theme"
             ],
-            "time": "2014-06-16 22:27:52"
+            "time": "2014-06-17 13:49:56"
+        },
+        {
+            "name": "kyaris-arsenal/frontend-kyaris",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:kyaris-arsenal/frontend-kyaris.git",
+                "reference": "2723fa287bafb7331442f6b2dddf85fa08d34206"
+            },
+            "require": {
+                "cartalyst/composer-installers": "1.1.*",
+                "php": ">=5.4.0"
+            },
+            "type": "platform-theme",
+            "extra": {
+                "component": "theme"
+            },
+            "license": [
+                "BSD-3"
+            ],
+            "authors": [
+                {
+                    "name": "Kyaris LLC",
+                    "email": "help@kyaris.com"
+                },
+                {
+                    "name": "Daniel Berry",
+                    "email": "daniel@kyaris.com",
+                    "role": "Creator & Developer"
+                }
+            ],
+            "description": "Kyaris Frontend theme.",
+            "keywords": [
+                "kyaris",
+                "laravel",
+                "platform",
+                "theme"
+            ],
+            "time": "2014-06-17 13:47:48"
         },
         {
             "name": "kyaris-arsenal/platform",
@@ -2455,12 +2494,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "4d7f9963e0a69433399beec6e2419d134abb6ef4"
+                "reference": "5c72abffdc855f363d76b109c72cc5b76bce1fb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/4d7f9963e0a69433399beec6e2419d134abb6ef4",
-                "reference": "4d7f9963e0a69433399beec6e2419d134abb6ef4",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/5c72abffdc855f363d76b109c72cc5b76bce1fb7",
+                "reference": "5c72abffdc855f363d76b109c72cc5b76bce1fb7",
                 "shasum": ""
             },
             "require": {
@@ -2517,7 +2556,7 @@
                 "s3",
                 "sftp"
             ],
-            "time": "2014-06-13 08:44:05"
+            "time": "2014-06-17 13:07:00"
         },
         {
             "name": "league/fractal",
@@ -3063,16 +3102,16 @@
         },
         {
             "name": "patchwork/utf8",
-            "version": "v1.1.23",
+            "version": "v1.1.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicolas-grekas/Patchwork-UTF8.git",
-                "reference": "c1edbc82aed49ff2bdef0a0f659bf69e3f7b14cc"
+                "reference": "40f552c019956f446553b19f7de2da2f9c74d730"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/c1edbc82aed49ff2bdef0a0f659bf69e3f7b14cc",
-                "reference": "c1edbc82aed49ff2bdef0a0f659bf69e3f7b14cc",
+                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/40f552c019956f446553b19f7de2da2f9c74d730",
+                "reference": "40f552c019956f446553b19f7de2da2f9c74d730",
                 "shasum": ""
             },
             "require": {
@@ -3110,7 +3149,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2014-05-22 13:59:09"
+            "time": "2014-06-17 08:23:06"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -3118,12 +3157,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "986b58ecb021627cae1b074b1a13e472354b4dc0"
+                "reference": "9716d9b7e5db7a42275fbc09f9558240098f2f18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/986b58ecb021627cae1b074b1a13e472354b4dc0",
-                "reference": "986b58ecb021627cae1b074b1a13e472354b4dc0",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/9716d9b7e5db7a42275fbc09f9558240098f2f18",
+                "reference": "9716d9b7e5db7a42275fbc09f9558240098f2f18",
                 "shasum": ""
             },
             "require": {
@@ -3207,7 +3246,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2014-06-16 20:53:43"
+            "time": "2014-06-17 09:37:36"
         },
         {
             "name": "pimple/pimple",
@@ -5329,6 +5368,7 @@
         "platform/admin-default": 20,
         "platform/frontend-default": 20,
         "kyaris-arsenal/admin-kyaris": 20,
+        "kyaris-arsenal/frontend-kyaris": 20,
         "platform/foundation": 20,
         "platform/installer": 20,
         "platform/attributes": 20,
