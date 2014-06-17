@@ -29,7 +29,7 @@ return array(
 	|
 	*/
 
-	'active' => 'frontend::default',
+	'active' => 'frontend::kyaris',
 
 	/*
 	|--------------------------------------------------------------------------
