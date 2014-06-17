@@ -2267,7 +2267,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/users-extension.git",
-                "reference": "9c2b930ee1979e1e354b8c0936a7dd7d998985b4"
+                "reference": "e0d6f65e45ca12c92b3614bc779031be37be264a"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2291,7 +2291,7 @@
                 }
             ],
             "description": "Extends the Cartalyst Platform User extension.",
-            "time": "2014-06-12 04:27:31"
+            "time": "2014-06-17 19:18:10"
         },
         {
             "name": "laravel/framework",
