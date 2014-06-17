@@ -46,6 +46,7 @@
 		"platform/frontend-default": "dev-master",
 
 		"kyaris-arsenal/admin-kyaris": "dev-master",
+		"kyaris-arsenal/frontend-kyaris": "dev-master",
 
 		"platform/foundation": "dev-master",
 		"platform/installer": "dev-master",
