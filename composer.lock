@@ -4,8 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-
-    "hash": "f32761c882eb493b066810a7c9e404f5",
+    "hash": "41e9705f0f45524d6fc87784ab377a8a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2164,7 +2163,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/admin-kyaris.git",
-                "reference": "1054d10b365350534404d59502a6d8a93f42f1bf"
+                "reference": "5b5d7d7cda0c2b18d818671583acf2f90fe8fe42"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2195,7 +2194,7 @@
                 "platform",
                 "theme"
             ],
-            "time": "2014-06-18 04:23:57"
+            "time": "2014-06-18 17:41:25"
         },
         {
             "name": "kyaris-arsenal/frontend-kyaris",
@@ -4118,12 +4117,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-settings.git",
-                "reference": "9a3ddb332c0a50d244baaf9663c70dcfa29a7e1a"
+                "reference": "f4724f3ca60c44ffe48e386e1485b20585ccf67b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-settings/zipball/9a3ddb332c0a50d244baaf9663c70dcfa29a7e1a",
-                "reference": "9a3ddb332c0a50d244baaf9663c70dcfa29a7e1a",
+                "url": "https://api.github.com/repos/cartalyst/platform-settings/zipball/f4724f3ca60c44ffe48e386e1485b20585ccf67b",
+                "reference": "f4724f3ca60c44ffe48e386e1485b20585ccf67b",
                 "shasum": ""
             },
             "require": {
@@ -4184,7 +4183,7 @@
                 "source": "https://github.com/cartalyst/platform-settings/tree/master",
                 "issues": "https://github.com/cartalyst/platform-settings/issues"
             },
-            "time": "2014-06-10 08:46:53"
+            "time": "2014-06-18 19:17:08"
         },
         {
             "name": "platform/users",
