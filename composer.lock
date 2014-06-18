@@ -2202,7 +2202,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/frontend-kyaris.git",
-                "reference": "f6ed871cde8b027f1467c0ae04168306c5f311e3"
+                "reference": "937ba5065161ec27a663dacf41e227885a24379d"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2233,7 +2233,7 @@
                 "platform",
                 "theme"
             ],
-            "time": "2014-06-17 22:56:25"
+            "time": "2014-06-18 15:42:57"
         },
         {
             "name": "kyaris-arsenal/platform",
@@ -2299,12 +2299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b58a43d6c933e833508c1492f2fec7caf4a70329"
+                "reference": "ee370ac91ee0a51303765c870e139b1ecd1e222c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b58a43d6c933e833508c1492f2fec7caf4a70329",
-                "reference": "b58a43d6c933e833508c1492f2fec7caf4a70329",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ee370ac91ee0a51303765c870e139b1ecd1e222c",
+                "reference": "ee370ac91ee0a51303765c870e139b1ecd1e222c",
                 "shasum": ""
             },
             "require": {
@@ -2408,7 +2408,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-18 04:03:23"
+            "time": "2014-06-18 05:07:22"
         },
         {
             "name": "leafo/scssphp",
