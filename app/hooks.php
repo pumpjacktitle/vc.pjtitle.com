@@ -43,6 +43,13 @@ Installer::after(function()
 		set_menu_order('admin', Config::get('platform.admin.menu'));
 		set_menu_order('main', Config::get('platform.frontend.menu'));
 	}
+
+	// disable our welcome page by default
+	if ( ! empty(app()['Platform\Pages\Repositories\PageRepositoryInterface']))
+	{
+		$pages = app()['Platform\Pages\Repositories\PageRepositoryInterface'];
+		$pages->disable(1);
+	}
 });
 
 /*
