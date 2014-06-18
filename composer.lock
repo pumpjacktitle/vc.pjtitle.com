@@ -2163,7 +2163,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/admin-kyaris.git",
-                "reference": "20bebbc5f25018892f234f17fceb59faf84333af"
+                "reference": "1054d10b365350534404d59502a6d8a93f42f1bf"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2194,7 +2194,7 @@
                 "platform",
                 "theme"
             ],
-            "time": "2014-06-17 18:24:16"
+            "time": "2014-06-18 04:23:57"
         },
         {
             "name": "kyaris-arsenal/frontend-kyaris",
@@ -2267,7 +2267,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/users-extension.git",
-                "reference": "e0d6f65e45ca12c92b3614bc779031be37be264a"
+                "reference": "d5c17172c39138c88c82b9ee26f9865dc0e5db07"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2291,7 +2291,7 @@
                 }
             ],
             "description": "Extends the Cartalyst Platform User extension.",
-            "time": "2014-06-17 19:18:10"
+            "time": "2014-06-18 04:20:35"
         },
         {
             "name": "laravel/framework",
@@ -2299,12 +2299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "262c16e4897ac5d895fcb31002873d644dcaf229"
+                "reference": "b58a43d6c933e833508c1492f2fec7caf4a70329"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/262c16e4897ac5d895fcb31002873d644dcaf229",
-                "reference": "262c16e4897ac5d895fcb31002873d644dcaf229",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b58a43d6c933e833508c1492f2fec7caf4a70329",
+                "reference": "b58a43d6c933e833508c1492f2fec7caf4a70329",
                 "shasum": ""
             },
             "require": {
@@ -2408,7 +2408,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-14 17:15:05"
+            "time": "2014-06-18 04:03:23"
         },
         {
             "name": "leafo/scssphp",
