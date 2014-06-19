@@ -61,7 +61,8 @@
 		"platform/users": "dev-master",
 
 		"kyaris-arsenal/platform": "dev-master",
-		"kyaris-arsenal/users": "dev-master"
+		"kyaris-arsenal/users": "dev-master",
+		"barryvdh/laravel-ide-helper": "1.*"
 	},
 	"autoload": {
 		"classmap": [
