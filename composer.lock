@@ -3685,12 +3685,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "9716d9b7e5db7a42275fbc09f9558240098f2f18"
+                "reference": "709c7c4d4818b2ee42df9bfaaf2aa0c4434d9e3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/9716d9b7e5db7a42275fbc09f9558240098f2f18",
-                "reference": "9716d9b7e5db7a42275fbc09f9558240098f2f18",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/709c7c4d4818b2ee42df9bfaaf2aa0c4434d9e3c",
+                "reference": "709c7c4d4818b2ee42df9bfaaf2aa0c4434d9e3c",
                 "shasum": ""
             },
             "require": {
@@ -3774,7 +3774,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2014-06-17 09:37:36"
+            "time": "2014-06-19 14:08:59"
         },
         {
             "name": "pimple/pimple",
