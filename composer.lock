@@ -2163,7 +2163,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/admin-kyaris.git",
-                "reference": "5b5d7d7cda0c2b18d818671583acf2f90fe8fe42"
+                "reference": "8a16bfb695a3869a3576255b9c4827f32f1192fd"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2194,7 +2194,7 @@
                 "platform",
                 "theme"
             ],
-            "time": "2014-06-18 17:41:25"
+            "time": "2014-06-19 03:01:56"
         },
         {
             "name": "kyaris-arsenal/frontend-kyaris",
@@ -2202,7 +2202,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.kyaris.com:kyaris-arsenal/frontend-kyaris.git",
-                "reference": "937ba5065161ec27a663dacf41e227885a24379d"
+                "reference": "f31cfe6c2fc9c814b39f39a556029417cef52504"
             },
             "require": {
                 "cartalyst/composer-installers": "1.1.*",
@@ -2233,7 +2233,7 @@
                 "platform",
                 "theme"
             ],
-            "time": "2014-06-18 15:42:57"
+            "time": "2014-06-18 21:43:14"
         },
         {
             "name": "kyaris-arsenal/platform",
@@ -2299,12 +2299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "ee370ac91ee0a51303765c870e139b1ecd1e222c"
+                "reference": "4dd748b84b187295a0cec373d5be7190109600bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/ee370ac91ee0a51303765c870e139b1ecd1e222c",
-                "reference": "ee370ac91ee0a51303765c870e139b1ecd1e222c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4dd748b84b187295a0cec373d5be7190109600bf",
+                "reference": "4dd748b84b187295a0cec373d5be7190109600bf",
                 "shasum": ""
             },
             "require": {
@@ -2408,7 +2408,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-06-18 05:07:22"
+            "time": "2014-06-18 21:38:58"
         },
         {
             "name": "leafo/scssphp",
